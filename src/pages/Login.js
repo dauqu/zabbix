@@ -42,11 +42,11 @@ export default function Login() {
             }}
         >
             <form>
-                <h1 className="h text-slate-400 text-4xl font-bold mb-5">Sign In</h1>
+                <h1 className="h text-slate-400 text-4xl font-bold mb-5 pt-5">Sign In</h1>
                 <h3 className="text-slate-400 text-l font-bold mb-5">For your protection, please verify your identity. </h3>
                 
-                <input type="text" placeholder="Username*" className="bg-slate-400 p-2 w-full outline-none rounded mb-2 mt-10 placeholder:font-bold placeholder:text-gray-600 text-gray-600 font-bold" />
-                <input type="password" placeholder="Password*" className="bg-slate-400 p-2 w-full outline-none rounded mb-5 mt-2 placeholder:font-bold placeholder:text-gray-600 text-gray-600 font-bold" />
+                <input type="text" placeholder="Username*" className="bg-slate-400 p-2 w-full outline-none mb-2 mt-10 placeholder:font-bold placeholder:text-gray-600 text-gray-600 font-bold" />
+                <input type="password" placeholder="Password*" className="bg-slate-400 p-2 w-full outline-none mb-5 mt-2 placeholder:font-bold placeholder:text-gray-600 text-gray-600 font-bold" />
 
                 {/* Rember me  */}
                 <div className="flex items-center mb-5">
