@@ -56,7 +56,10 @@ export default function Login() {
                 <button type="submit" className="b bg-emerald-500 p-1 rounded  w-full text-white mb-10">Login</button>
 
                 {/* Copyright */}
-                <p className="text-slate-400 text-l font-bold mb-5">© 2021 All Rights Reserved. </p>
+                <p className="text-slate-400 text-l font-bold mb-5 text-sm">© 2021 All Rights Reserved. <br/> 
+                    <a href="#" className="text-emerald-500"> Privacy Policy</a> and 
+                    <a href="#" className="text-emerald-500"> Terms of Use</a>
+                </p>
 
             </form>
         </div>
